@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "bin": {
-    "bt": "cli.js"
+    "btt": "cli.js"
   },
   "author": {
     "name": "Rawnly",

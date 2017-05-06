@@ -53,7 +53,11 @@ function cliFunc(action, flags) {
 }
 
 
-cliFunc(cli.input, cli.flags)
+if (cli.input[0]) {
+  cliFunc(cli.input, cli.flags)
+} else {
+  console.log('No path provided.');
+}
 
 
 function getExtension(name) {
