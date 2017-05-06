@@ -1,6 +1,6 @@
-# BTT CLI 
- 
-![img](https://placehold.it/1920x1080?text=Screenshot)
+# BTT CLI
+
+![img](https://placehold.it/1920x1080?text=Screenshot+Soon)
 > Better "touch" command.
 
 ## Installation
@@ -13,11 +13,11 @@ If no errors let's install **btt-cli** with the following comand:
 
 ```bash
   $ npm install btt-cli --global
-  
+
   # or "shorter flags"
   $ npm i -g btt-cli
-  
-  # or with YARN 
+
+  # or with YARN
   $ yarn global add btt-cli
 ```
 
@@ -38,9 +38,9 @@ Because **btt** provides to create the path if it doesn't exitst yet and it **do
 ```bash
   $ touch myCoolProject/www/index.html
   # Now if the path 'myCoolProject/www' doesn't exists "touch" will return error.
-  
+
   $ echo >> myCoolProject/www/index.html "<h1>Title</h1>"
-  # This will return the same error 
+  # This will return the same error
 ```
 
 <br><br>
@@ -52,18 +52,18 @@ But here comes _this commandline_, **btt** will create the path and with btt you
 **Example with btt:**
 ```bash
   $ btt myCoolProject/www/index.html "<h1> Title </h1>"
-  
+
   # You can also write without “”
-  
+
   $ btt Note/myFirstNote.txt Hey, this is my note!
-  # This will write a file with 
+  # This will write a file with
   # the phrase "Hey, this is my note!".
 ```
 
 ## Platforms
 This `commandline` should work over all platforms but unfortunately right now i can't test it over all them.
 ### Tested on
-  - [x] macOS Sierra [10.12.13] 
+  - [x] macOS Sierra [10.12.13]
   - [ ] Linux systems
   - [ ] Windows systems
 
